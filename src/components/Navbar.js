@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as Link1 } from "react-scroll";
 
 export default function Navbar() {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
   window.addEventListener("scroll", windowScroll);
   function windowScroll() {
     const navbar = document.getElementById("navbar");
@@ -33,6 +38,7 @@ export default function Navbar() {
       }
     }
   }
+
   return (
     <nav className="navbar" id="navbar">
       <div className="container flex flex-wrap items-center justify-between">
@@ -55,6 +61,7 @@ export default function Navbar() {
           <button
             data-collapse="menu-collapse"
             type="button"
+            onClick={handleClick}
             className="collapse-btn inline-flex items-center ms-2 text-dark dark:text-white lg_992:hidden"
             aria-controls="menu-collapse"
             aria-expanded="false"
@@ -66,7 +73,11 @@ export default function Navbar() {
 
         {/* <!-- Navbar Manu --> */}
         <div
-          className="navigation lg_992:order-1 lg_992:flex hidden ms-auto"
+          className={
+            isActive
+              ? "navigation lg_992:order-1 lg_992:flex ms-auto"
+              : "navigation lg_992:order-1 lg_992:flex hidden ms-auto"
+          }
           id="menu-collapse"
         >
           <ul className="navbar-nav" id="navbar-navlist">
