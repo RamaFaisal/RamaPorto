@@ -118,16 +118,14 @@ export default function Navbar() {
               </Link1>
             </li>
             <li className="nav-item">
-              <Link1
-                to="blog"
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                duration={500}
+              <a
+                href="https://medium.com/@helloramafaisal"
+                target="_blank"
+                rel="noopener norefferer"
                 className="nav-link"
               >
                 Article
-              </Link1>
+              </a>
             </li>
             <li className="nav-item">
               <a
