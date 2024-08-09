@@ -42,7 +42,7 @@ export default function Navbar() {
   return (
     <nav className="navbar" id="navbar">
       <div className="container flex flex-wrap items-center justify-between">
-        <Link to="/" className="navbar-brand md:me-8" href="index.html">
+        <Link to="/" className="navbar-brand md:me-8" href="/">
           <img
             src="/images/1.png"
             className="img inline-block dark:hidden"
