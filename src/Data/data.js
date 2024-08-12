@@ -128,19 +128,19 @@ export const blogData = [
     image: "/images/blog/html1.jpg",
     title: "Tutorial Belajar HTML Part 1",
     desc: "HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk membuat dan memformat konten halaman web. HTML terdiri dari..",
-    link: "https://medium.com/@helloramafaisal/tutorial-belajar-html-part-1-pengenalan-html-dasar-dasar-html-untuk-pemula-307499967356",
+    link: "https://medium.com/@RamaFaisal/tutorial-belajar-html-part-1-pengenalan-html-dasar-dasar-html-untuk-pemula-307499967356",
   },
   {
     image: "/images/blog/html2.jpg",
     title: "Tutorial Belajar HTML Part 2",
     desc: "Pada dasarnya, sebuah halaman web dibangun dengan menggunakan berbagai elemen atau “tags” dalam HTML (Hypertext Markup Language). Elemen-elemen ini memberikan..",
-    link: "https://medium.com/@helloramafaisal/tutorial-belajar-html-part-2-memahami-element-dalam-html-struktur-dasar-halaman-web-daf99c8dcc68",
+    link: "https://medium.com/@RamaFaisal/tutorial-belajar-html-part-2-memahami-element-dalam-html-struktur-dasar-halaman-web-daf99c8dcc68",
   },
   {
     image: "/images/blog/html3.jpg",
     title: "Tutorial Belajar HTML Part 3",
     desc: "Penggunaan Attribute dalam HTML: Menambahkan Informasi Tambahan Dalam HTML (Hypertext Markup Language), attribute (atribut) memainkan peran penting dalam..",
-    link: "https://medium.com/@helloramafaisal/tutorial-belajar-html-part-3-penggunaan-attribute-dalam-html-menambahkan-informasi-tambahan-fb1798a469ab",
+    link: "https://medium.com/@RamaFaisal/tutorial-belajar-html-part-3-penggunaan-attribute-dalam-html-menambahkan-informasi-tambahan-fb1798a469ab",
   },
 ];
 export const review = [

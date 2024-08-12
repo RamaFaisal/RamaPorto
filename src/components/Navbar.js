@@ -119,7 +119,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                href="https://medium.com/@helloramafaisal"
+                href="https://medium.com/@RamaFaisal"
                 target="_blank"
                 rel="noopener norefferer"
                 className="nav-link"
