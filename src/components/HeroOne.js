@@ -106,7 +106,7 @@ export default function HeroOne() {
       </section>
       <div className="relative">
         <div className="absolute block w-full h-auto bottom-[25px] z-1 left-0">
-          <a href="#project">
+          <a href="#project" rel="nofollow">
             <i className="mdi mdi-arrow-down absolute top-0 left-0 right-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 h-12 w-12 mx-auto shadow-md dark:shadow-gray-800"></i>
           </a>
         </div>
